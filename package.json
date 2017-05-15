@@ -1,6 +1,6 @@
 {
   "name": "think-raw-body",
-  "description": "",
+  "description": "raw body middleware for ThinkJS 2.2.12,you can get `text/plain(raw)` type data,when you used 'this.post()' in controller.",
   "version": "1.0.2",
   "author": {},
   "scripts": {

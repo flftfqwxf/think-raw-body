@@ -1,7 +1,7 @@
 # think-raw-body
 
 raw body middleware for ThinkJS 2.2.12,
-you can get `text/plain` type data,when you used 'this.post()' in controller.
+you can get `text/plain(raw)` type data,when you used 'this.post()' in controller.
 
 ## Install
 
