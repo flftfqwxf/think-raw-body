@@ -8,7 +8,7 @@ export default class extends think.middleware.base {
      * @return {Promise} []
      */
     async run() {
-        let _this=this
+        let _this = this
         // console.log(this.http.type())
         if (this.http.type() !== "text/plain") {
             return;
@@ -17,6 +17,9 @@ export default class extends think.middleware.base {
             try {
                 _this.http._post = JSON.parse(payload);
             } catch (e) {
+                _this.http._post = {
+                    rawValue: payload
+                }
             }
         });
     }
