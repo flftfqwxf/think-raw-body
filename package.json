@@ -29,7 +29,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "<Github URL>"
+    "url": "git+https://github.com/flftfqwxf/think-raw-body.git"
   },
   "engines": {
     "node": ">=0.12.0"
@@ -37,6 +37,6 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "<Github URL>/issues"
+    "url": "https://github.com/flftfqwxf/think-raw-body/issues"
   }
 }
